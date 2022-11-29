@@ -522,8 +522,8 @@ video {
 }
 
 .myTooltip {
-  position: absolute;
-  left: 200px;
+  position: relative;
+  left: -150px;
   height: 35px;
   width: 230px;
   --tw-bg-opacity: 1;
@@ -625,6 +625,10 @@ video {
 .text-green-600 {
   --tw-text-opacity: 1;
   color: rgb(22 163 74 / var(--tw-text-opacity));
+}
+
+.opacity-10 {
+  opacity: 0.1;
 }
 
 .transition {
